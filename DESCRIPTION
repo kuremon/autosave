@@ -1,0 +1,13 @@
+Package: autosave
+Type: Package
+Title: Automatically save large amounts of results
+Version: 1.0
+Date: 2013-07-03
+Author: Clement Bonini
+Maintainer: Clement Bonini <clement.bonini@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Collate:
+    'autosave.R'
+    'toolbox_additional.R'
+    'toolbox_define.R'

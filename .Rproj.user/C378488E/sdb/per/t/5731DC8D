@@ -1,0 +1,16 @@
+{
+    "contents" : "#' @title autosave\n#' @name autosave\n#' @docType package\n#' @import tools devEMF XLConnect lazyr\nNULL",
+    "created" : 1380066098693.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2715987554",
+    "id" : "5731DC8D",
+    "lastKnownWriteTime" : 1380076115,
+    "path" : "~/R&D/R packages/Source packages/autosave/R/autosave.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

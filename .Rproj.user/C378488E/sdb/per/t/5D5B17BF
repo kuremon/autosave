@@ -1,0 +1,15 @@
+{
+    "contents" : "save_data.frame=function(obj.ref,name=obj.ref,envir=parent.frame(),format=\"xlsx\",folder=\".\",info=T,\n                         before.name=NULL,after.name=NULL,...){\n  data=get(obj.ref,envir)\n  name=paste(paste0(before.name,gsub(\"\\\\.\",\"_\",name),after.name),format,sep=\".\")\n  args=c(list(x=data,file=file.path(folder,name)),list(...))\n  do.call(\"write.xlsx2\",args)\n  if(info) message(name,\" is saved in folder \",file_path_as_absolute(folder))\n}\n\nsave_all.data.frame=function(all.objects,envir=parent.frame(),...){\n  save_all(save_data.frame,all.objects,envir=parent.frame(),...)\n}",
+    "created" : 1380069437960.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3028388119",
+    "id" : "5D5B17BF",
+    "lastKnownWriteTime" : 1380064234,
+    "path" : "~/R&D/R packages/Source packages/autosave/R/Archives/save_dataframe.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
